@@ -59,6 +59,7 @@ const schemas = () => [
     require('@condo/domains/resident/schema'),
     require('@condo/domains/onboarding/schema'),
     require('@condo/domains/meter/schema'),
+    require('@condo/domains/asset/schema'),
     require('@condo/domains/subscription/schema'),
     require('@condo/domains/acquiring/schema'),
     require('@condo/domains/analytics/schema'),
