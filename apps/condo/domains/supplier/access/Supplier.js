@@ -17,7 +17,7 @@ async function canReadSuppliers (args) {
     if (user.deletedAt) return false
     if (user.isAdmin) return {}
 
-    // Wave 1: comprueba pertenencia a la organización. 
+    // Wave 1: comprueba pertenencia a la organización.
     // En Wave 1.5 se validará el permiso formal canReadSuppliers en OrganizationEmployeeRole.
     const permittedOrganizations = await getEmployedOrRelatedOrganizationsByPermissions(context, user, 'canReadSuppliers')
 

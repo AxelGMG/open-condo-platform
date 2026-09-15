@@ -11,4 +11,3 @@ module.exports = {
     SUPPLIER_STATUS_INACTIVE,
     SUPPLIER_STATUS_TYPES,
 }
-
